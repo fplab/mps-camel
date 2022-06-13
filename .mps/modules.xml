@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/lambda/lambda.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ocaml/ocaml.mpl" folder="" />
     </projectModules>
   </component>
 </project>
