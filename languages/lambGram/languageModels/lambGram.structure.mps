@@ -380,13 +380,5 @@
     <property role="TrG5h" value="AnyType" />
     <ref role="1TJDcQ" node="3VwSXPW6JFo" resolve="LambdaType" />
   </node>
-  <node concept="1TIwiD" id="1COcjILgjMS">
-    <property role="R5$K7" value="false" />
-    <property role="R5$K2" value="false" />
-    <property role="TrG5h" value="ConcatenateOperation" />
-    <property role="34LRSv" value="+" />
-    <property role="EcuMT" value="1888188276221754552" />
-    <ref role="1TJDcQ" node="1COcjILgjMQ" resolve="BinaryStringOperation" />
-  </node>
 </model>
 
