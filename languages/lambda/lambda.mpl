@@ -65,7 +65,7 @@
         <language slang="l:b83431fe-5c8f-40bc-8a36-65e25f4dd253:jetbrains.mps.lang.textGen" version="1" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
         <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="5" />
-        <language slang="l:7c9e2807-94ad-4afc-adf0-aaee45eb2895:jetbrains.mps.samples.lambdaCalculus" version="0" />
+        <language slang="l:9f664d9b-8c99-439a-b730-4706623a3617:lambda" version="0" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -88,9 +88,9 @@
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
-        <module reference="7c9e2807-94ad-4afc-adf0-aaee45eb2895(jetbrains.mps.samples.lambdaCalculus)" version="0" />
-        <module reference="c390df68-d947-4830-b90c-05e33eb03b94(jetbrains.mps.samples.lambdaCalculus#391739495267435110)" version="0" />
         <module reference="3adc1bc4-83b1-45f4-b261-03e8e8553ebc(jetbrains.mps.samples.lambdaCalculus.runtime)" version="0" />
+        <module reference="9f664d9b-8c99-439a-b730-4706623a3617(lambda)" version="0" />
+        <module reference="2a5c6aaf-d157-44f6-938c-d77d6bf11ef3(lambda#3401575348453566848)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -136,7 +136,7 @@
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="5" />
-    <language slang="l:7c9e2807-94ad-4afc-adf0-aaee45eb2895:jetbrains.mps.samples.lambdaCalculus" version="0" />
+    <language slang="l:9f664d9b-8c99-439a-b730-4706623a3617:lambda" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -159,7 +159,7 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
-    <module reference="7c9e2807-94ad-4afc-adf0-aaee45eb2895(jetbrains.mps.samples.lambdaCalculus)" version="0" />
+    <module reference="9f664d9b-8c99-439a-b730-4706623a3617(lambda)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">3adc1bc4-83b1-45f4-b261-03e8e8553ebc(jetbrains.mps.samples.lambdaCalculus.runtime)</dependency>
