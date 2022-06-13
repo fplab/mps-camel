@@ -232,6 +232,11 @@
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="1716599163375643733" name="com.mbeddr.mpsutil.grammarcells.structure.BracketsCell" flags="ng" index="drBAd">
+        <child id="1716599163375643743" name="left" index="drBA7" />
+        <child id="1716599163375643746" name="inner" index="drBAU" />
+        <child id="1716599163375643751" name="right" index="drBAZ" />
+      </concept>
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
@@ -606,25 +611,19 @@
   </node>
   <node concept="24kQdi" id="3sPZqPiq7Hr">
     <ref role="1XX52x" to="kkzo:3sPZqPiq7Hp" resolve="ParenthesisExpression" />
-    <node concept="3EZMnI" id="3sPZqPiq9gs" role="2wV5jI">
-      <node concept="3F0ifn" id="3sPZqPiq9gy" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <ref role="1ERwB7" node="5oVZeCTaqNR" resolve="ParenthesisActions" />
-        <node concept="11LMrY" id="LPpEX_MMo" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+    <node concept="1WcQYu" id="5jedEAjfo7G" role="2wV5jI">
+      <node concept="2ElW$n" id="5jedEAjfo7L" role="2El2Yn" />
+      <node concept="drBAd" id="5jedEAjfo7$" role="1LiK7o">
+        <node concept="3F0ifn" id="5jedEAjfo7_" role="drBA7">
+          <property role="3F0ifm" value="(" />
+        </node>
+        <node concept="3F1sOY" id="5jedEAjfo7A" role="drBAU">
+          <ref role="1NtTu8" to="kkzo:3sPZqPiq7Hq" resolve="expression" />
+        </node>
+        <node concept="3F0ifn" id="5jedEAjfo7B" role="drBAZ">
+          <property role="3F0ifm" value=")" />
         </node>
       </node>
-      <node concept="3F1sOY" id="3sPZqPiq9gz" role="3EZMnx">
-        <ref role="1NtTu8" to="kkzo:3sPZqPiq7Hq" resolve="expression" />
-      </node>
-      <node concept="3F0ifn" id="3sPZqPiq9gx" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <ref role="1ERwB7" node="5oVZeCTaqNR" resolve="ParenthesisActions" />
-        <node concept="11L4FC" id="LPpEX_MMp" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="3sPZqPiq9gt" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="1mRmPjLtH6_">
