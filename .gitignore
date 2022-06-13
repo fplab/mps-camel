@@ -1,5 +1,7 @@
 *.java
 *.class
 dependencies
-languages/lambGram/source_gen
-languages/lambGram/source_gen.caches
+languages/*/source_gen
+languages/*/source_gen.caches
+languages/*/generator
+languages/*/classes_gen
