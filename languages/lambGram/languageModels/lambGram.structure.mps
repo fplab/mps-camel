@@ -61,8 +61,8 @@
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="TrG5h" value="LambdaAbstraction" />
-    <property role="34LRSv" value="\" />
     <property role="EcuMT" value="4022026349914673024" />
+    <property role="34LRSv" value="fun" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     <node concept="1TJgyj" id="3vh6UvnVyQT" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
