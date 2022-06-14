@@ -240,6 +240,7 @@
         <child id="1716599163375643751" name="right" index="drBAZ" />
       </concept>
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n">
+        <child id="8207263695491669778" name="leftAssociative" index="2EmT7a" />
         <child id="8207263695491670784" name="priority" index="2EmURo" />
       </concept>
       <concept id="8207263695491691232" name="com.mbeddr.mpsutil.grammarcells.structure.SubconceptExpression" flags="ng" index="2EmZKS" />
@@ -312,6 +313,7 @@
         </node>
         <node concept="l2Vlx" id="3UJcMy4sggB" role="2iSdaV" />
         <node concept="3F2HdR" id="3vh6UvnVyR2" role="3EZMnx">
+          <property role="2czwfO" value="," />
           <ref role="1NtTu8" to="kkzo:3vh6UvnVyQT" resolve="variable" />
           <node concept="l2Vlx" id="3vh6UvnVyR3" role="2czzBx" />
           <node concept="11LMrY" id="5juWWWdAROW" role="3F10Kt">
@@ -457,6 +459,12 @@
           <node concept="2EmZKS" id="5jedEAjmnOI" role="2Oq$k0" />
           <node concept="2qgKlT" id="5jedEAjmoqQ" role="2OqNvi">
             <ref role="37wK5l" to="ysy1:1653mnvAgo2" resolve="getPriority" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5jedEAjs5gF" role="2EmT7a">
+          <node concept="2EmZKS" id="5jedEAjs4Y7" role="2Oq$k0" />
+          <node concept="2qgKlT" id="5jedEAjs5CY" role="2OqNvi">
+            <ref role="37wK5l" to="ysy1:6D1UjUu4lHX" resolve="isLeftAssociative" />
           </node>
         </node>
       </node>
