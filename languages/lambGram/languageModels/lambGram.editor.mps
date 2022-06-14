@@ -43,6 +43,7 @@
         <reference id="6089045305654944382" name="menu" index="2kkw0f" />
       </concept>
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="784421273959492578" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeMenu" flags="ng" index="mvV$s">
         <child id="6718020819487784677" name="menuReference" index="A14EM" />
@@ -166,7 +167,6 @@
         <child id="7980428675268276157" name="locations" index="1Qtc8$" />
         <child id="7980428675268276159" name="parts" index="1Qtc8A" />
       </concept>
-      <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -693,11 +693,13 @@
               <node concept="pVoyu" id="5jedEAjywpH" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
-              <node concept="3XFhqQ" id="5jedEAj$_dH" role="3EZMnx" />
               <node concept="3F1sOY" id="5jedEAjwtD6" role="3EZMnx">
                 <ref role="1NtTu8" to="kkzo:4ibC_jHJWuw" resolve="value" />
               </node>
               <node concept="l2Vlx" id="5jedEAjwtCW" role="2iSdaV" />
+              <node concept="lj46D" id="5jedEAjALKw" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="3F0ifn" id="5jedEAjwtDg" role="3EZMnx">
               <property role="3F0ifm" value="in" />
