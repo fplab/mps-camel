@@ -82,6 +82,7 @@
       <concept id="4323500428136740385" name="jetbrains.mps.lang.editor.structure.CellIdReferenceSelector" flags="ng" index="2TlHUq">
         <reference id="4323500428136742952" name="id" index="2TlMyj" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -1595,6 +1596,21 @@
         </node>
         <node concept="l2Vlx" id="3HIm0ir5YJC" role="2iSdaV" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="lrWAqezfz$">
+    <ref role="1XX52x" to="kkzo:lrWAqezfzz" resolve="Circle" />
+    <node concept="1Lj6DL" id="lrWAqe_rSh" role="2wV5jI">
+      <node concept="1Lj6DC" id="lrWAqe_rSj" role="1Lj8FM">
+        <node concept="3clFbS" id="lrWAqe_rSl" role="2VODD2">
+          <node concept="3clFbF" id="lrWAqe_rWV" role="3cqZAp">
+            <node concept="Xl_RD" id="lrWAqe_rWU" role="3clFbG">
+              <property role="Xl_RC" value="circle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Vb9p2" id="lrWAqeBvhd" role="3F10Kt" />
     </node>
   </node>
 </model>
