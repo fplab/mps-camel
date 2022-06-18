@@ -4,7 +4,6 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/camel/camel.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/lambda/lambda.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/tasks/tasks.msd" folder="" />
     </projectModules>
   </component>
