@@ -141,9 +141,6 @@
       <property role="IQ2ns" value="4022026349915669386" />
       <ref role="20lvS9" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     </node>
-    <node concept="PrWs8" id="3vh6UvnZ0en" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="1co500LP6JR" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
@@ -406,6 +403,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqewT85">
+    <property role="EcuMT" value="386168715361882629" />
+    <property role="TrG5h" value="CirclePoint" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="3vh6UvnZ0e9" resolve="Program" />
   </node>
 </model>
 

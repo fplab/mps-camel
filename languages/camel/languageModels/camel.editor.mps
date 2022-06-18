@@ -49,7 +49,6 @@
         <child id="6718020819487784677" name="menuReference" index="A14EM" />
       </concept>
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
-      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1177327274449" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_pattern" flags="nn" index="ub8z3" />
       <concept id="1177327570013" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Substitute" flags="in" index="ucgPf" />
       <concept id="8478191136883534237" name="jetbrains.mps.lang.editor.structure.IExtensibleSubstituteMenuPart" flags="ng" index="upBLQ">
@@ -473,18 +472,6 @@
     <ref role="1XX52x" to="kkzo:3vh6UvnZ0e9" resolve="Program" />
     <node concept="3EZMnI" id="3vh6UvnZ0eo" role="2wV5jI">
       <node concept="l2Vlx" id="3vh6UvnZ0ep" role="2iSdaV" />
-      <node concept="3F0ifn" id="3vh6UvnZ0et" role="3EZMnx">
-        <property role="3F0ifm" value="program" />
-        <node concept="pVoyu" id="3vh6UvnZ0ew" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="3vh6UvnZ0eu" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="ljvvj" id="3vh6UvnZ0ey" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="3F1sOY" id="3vh6UvnZ0ez" role="3EZMnx">
         <ref role="1NtTu8" to="kkzo:3vh6UvnZ0ea" resolve="expression" />
         <node concept="ljvvj" id="3vh6UvnZ0eC" role="3F10Kt">
