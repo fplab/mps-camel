@@ -416,5 +416,17 @@
     <property role="34LRSv" value="circle" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
   </node>
+  <node concept="1TIwiD" id="lrWAqeCAJG">
+    <property role="EcuMT" value="386168715363904492" />
+    <property role="TrG5h" value="Sqrt" />
+    <property role="34LRSv" value="sqrt" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+  </node>
+  <node concept="1TIwiD" id="lrWAqeDEHo">
+    <property role="EcuMT" value="386168715364182872" />
+    <property role="TrG5h" value="Pow" />
+    <property role="34LRSv" value="pow" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+  </node>
 </model>
 
