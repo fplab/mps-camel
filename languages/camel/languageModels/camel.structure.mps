@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(lambGram.structure)">
+<model ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(camel.structure)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>

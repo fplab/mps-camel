@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3ed5e461-de7e-409a-b714-afd8cf19d5d0(lambGram.editor)">
+<model ref="r:3ed5e461-de7e-409a-b714-afd8cf19d5d0(camel.editor)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
@@ -14,8 +14,8 @@
   </languages>
   <imports>
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
-    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(lambGram.structure)" />
-    <import index="ysy1" ref="r:3fb7a71c-5284-49fd-95d9-4a2a8853e8c2(lambGram.behavior)" implicit="true" />
+    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(camel.structure)" />
+    <import index="ysy1" ref="r:3fb7a71c-5284-49fd-95d9-4a2a8853e8c2(camel.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -491,6 +491,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="VPM3Z" id="lrWAqeqqGZ" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="1Foaqqimw_u">

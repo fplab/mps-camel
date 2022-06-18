@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3fb7a71c-5284-49fd-95d9-4a2a8853e8c2(lambGram.behavior)">
+<model ref="r:3fb7a71c-5284-49fd-95d9-4a2a8853e8c2(camel.behavior)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
@@ -11,7 +11,7 @@
   </languages>
   <imports>
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(lambGram.structure)" />
+    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(camel.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1499,7 +1499,7 @@
       <ref role="13i0hy" node="1653mnvAgo2" resolve="getPriority" />
       <node concept="3clFbS" id="5jedEAjpzS3" role="3clF47">
         <node concept="3cpWs6" id="5jedEAjpzTt" role="3cqZAp">
-          <node concept="3cmrfG" id="5jedEAjpzTy" role="3cqZAk">
+          <node concept="3cmrfG" id="1_8i_36kuST" role="3cqZAk">
             <property role="3cmrfH" value="10" />
           </node>
         </node>

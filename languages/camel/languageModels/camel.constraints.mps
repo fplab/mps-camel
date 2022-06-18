@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0add6ba4-c212-40d9-96a4-832c7762c261(lambGram.constraints)">
+<model ref="r:0add6ba4-c212-40d9-96a4-832c7762c261(camel.constraints)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(lambGram.structure)" />
+    <import index="kkzo" ref="r:1e907193-6cf0-406d-8fb6-639a0c816620(camel.structure)" />
     <import index="ysy1" ref="r:3fb7a71c-5284-49fd-95d9-4a2a8853e8c2(ocaml.behavior)" />
   </imports>
   <registry>
