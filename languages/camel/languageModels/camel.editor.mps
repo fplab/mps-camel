@@ -1804,5 +1804,48 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="lrWAqgdg_7">
+    <ref role="1XX52x" to="kkzo:lrWAqgdg_6" resolve="Rect" />
+    <node concept="3EZMnI" id="lrWAqgdg_9" role="2wV5jI">
+      <node concept="3F0ifn" id="lrWAqgdg_g" role="3EZMnx">
+        <property role="3F0ifm" value="rect" />
+        <node concept="Vb9p2" id="lrWAqgdg_j" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="lrWAqgdg_c" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="lrWAqggegw">
+    <ref role="1XX52x" to="kkzo:lrWAqggegv" resolve="ListLit" />
+    <node concept="3EZMnI" id="lrWAqggeg$" role="2wV5jI">
+      <node concept="3F0ifn" id="lrWAqggegF" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="11LMrY" id="lrWAqggeh4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="lrWAqggegL" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="kkzo:lrWAqggegy" resolve="elems" />
+        <node concept="l2Vlx" id="lrWAqggegN" role="2czzBx" />
+      </node>
+      <node concept="l2Vlx" id="lrWAqggegB" role="2iSdaV" />
+      <node concept="3F0ifn" id="lrWAqggegW" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="lrWAqggeh2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="lrWAqghf1J">
+    <ref role="1XX52x" to="kkzo:lrWAqghf1I" resolve="Line" />
+    <node concept="3EZMnI" id="lrWAqghf1L" role="2wV5jI">
+      <node concept="3F0ifn" id="lrWAqghf1S" role="3EZMnx">
+        <property role="3F0ifm" value="line" />
+        <node concept="Vb9p2" id="lrWAqghf1V" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="lrWAqghf1O" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

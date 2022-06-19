@@ -408,5 +408,30 @@
     <property role="34LRSv" value="pow" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
   </node>
+  <node concept="1TIwiD" id="lrWAqgdg_6">
+    <property role="EcuMT" value="386168715390290246" />
+    <property role="TrG5h" value="Rect" />
+    <property role="34LRSv" value="rect" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+  </node>
+  <node concept="1TIwiD" id="lrWAqggegv">
+    <property role="EcuMT" value="386168715391067167" />
+    <property role="TrG5h" value="ListLit" />
+    <property role="34LRSv" value="[" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="1TJgyj" id="lrWAqggegy" role="1TKVEi">
+      <property role="IQ2ns" value="386168715391067170" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elems" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqghf1I">
+    <property role="EcuMT" value="386168715391332462" />
+    <property role="TrG5h" value="Line" />
+    <property role="34LRSv" value="line" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+  </node>
 </model>
 
