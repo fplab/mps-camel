@@ -1595,5 +1595,41 @@
       <node concept="3Tm1VV" id="5jedEAjp$3u" role="1B3o_S" />
     </node>
   </node>
+  <node concept="13h7C7" id="lrWAqgvkMh">
+    <ref role="13h7C2" to="kkzo:lrWAqgvkMg" resolve="LessThan" />
+    <node concept="13i0hz" id="lrWAqgvkN6" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="getPriority" />
+      <ref role="13i0hy" node="1653mnvAgo2" resolve="getPriority" />
+      <node concept="3clFbS" id="lrWAqgvkN7" role="3clF47">
+        <node concept="3cpWs6" id="lrWAqgvkN8" role="3cqZAp">
+          <node concept="3cmrfG" id="lrWAqgvkOc" role="3cqZAk">
+            <property role="3cmrfH" value="8" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="lrWAqgvkNa" role="3clF45" />
+      <node concept="3Tm1VV" id="lrWAqgvkNb" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="lrWAqgvkNc" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="isLeftAssociative" />
+      <ref role="13i0hy" node="6D1UjUu4lHX" resolve="isLeftAssociative" />
+      <node concept="3clFbS" id="lrWAqgvkNd" role="3clF47">
+        <node concept="3cpWs6" id="lrWAqgvkNe" role="3cqZAp">
+          <node concept="3clFbT" id="lrWAqgvkNf" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="lrWAqgvkNg" role="3clF45" />
+      <node concept="3Tm1VV" id="lrWAqgvkNh" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="lrWAqgvkMi" role="13h7CW">
+      <node concept="3clFbS" id="lrWAqgvkMj" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

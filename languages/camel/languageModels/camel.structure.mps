@@ -395,24 +395,36 @@
     <property role="TrG5h" value="Circle" />
     <property role="34LRSv" value="circle" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZG7" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="lrWAqeCAJG">
     <property role="EcuMT" value="386168715363904492" />
     <property role="TrG5h" value="Sqrt" />
     <property role="34LRSv" value="sqrt" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZGf" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="lrWAqeDEHo">
     <property role="EcuMT" value="386168715364182872" />
     <property role="TrG5h" value="Pow" />
     <property role="34LRSv" value="pow" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZGb" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="lrWAqgdg_6">
     <property role="EcuMT" value="386168715390290246" />
     <property role="TrG5h" value="Rect" />
     <property role="34LRSv" value="rect" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZGd" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="lrWAqggegv">
     <property role="EcuMT" value="386168715391067167" />
@@ -432,6 +444,90 @@
     <property role="TrG5h" value="Line" />
     <property role="34LRSv" value="line" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZG9" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqglci0">
+    <property role="EcuMT" value="386168715392369792" />
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="RevAp" />
+    <property role="34LRSv" value="|&gt;" />
+    <ref role="1TJDcQ" node="1Foaqqimw_r" resolve="BinaryOperation" />
+  </node>
+  <node concept="1TIwiD" id="lrWAqgmtWL">
+    <property role="EcuMT" value="386168715392704305" />
+    <property role="TrG5h" value="ListMap" />
+    <property role="34LRSv" value="map" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZG5" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgmtX7">
+    <property role="EcuMT" value="386168715392704327" />
+    <property role="TrG5h" value="ListFilter" />
+    <property role="34LRSv" value="filter" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgpZG2" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgogAg">
+    <property role="EcuMT" value="386168715393173904" />
+    <property role="TrG5h" value="Rotate" />
+    <property role="34LRSv" value="rotate" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgohnA" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="lrWAqgogAj">
+    <property role="EcuMT" value="386168715393173907" />
+    <property role="TrG5h" value="InScope" />
+  </node>
+  <node concept="1TIwiD" id="lrWAqgpZGh">
+    <property role="EcuMT" value="386168715393628945" />
+    <property role="TrG5h" value="Translate" />
+    <property role="34LRSv" value="translate" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgqyDB" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgqyDD">
+    <property role="EcuMT" value="386168715393772137" />
+    <property role="TrG5h" value="Pi" />
+    <property role="34LRSv" value="pi" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgqyDE" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgrIuw">
+    <property role="EcuMT" value="386168715394082720" />
+    <property role="TrG5h" value="Shapes" />
+    <property role="34LRSv" value="shapes" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgrIux" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgsYuX">
+    <property role="EcuMT" value="386168715394410429" />
+    <property role="TrG5h" value="Area" />
+    <property role="34LRSv" value="area" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="lrWAqgsYuY" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lrWAqgvkMg">
+    <property role="EcuMT" value="386168715395026064" />
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="LessThan" />
+    <property role="34LRSv" value="&lt;" />
+    <ref role="1TJDcQ" node="1Foaqqimw_r" resolve="BinaryOperation" />
   </node>
 </model>
 
