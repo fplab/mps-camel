@@ -545,5 +545,59 @@
     <property role="34LRSv" value="," />
     <ref role="1TJDcQ" node="1Foaqqimw_r" resolve="BinaryOperation" />
   </node>
+  <node concept="1TIwiD" id="7ddomfE1SmT">
+    <property role="EcuMT" value="8308403969324451257" />
+    <property role="TrG5h" value="Msg" />
+    <property role="34LRSv" value="msg" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE1SmU" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ddomfE1SmW">
+    <property role="EcuMT" value="8308403969324451260" />
+    <property role="TrG5h" value="Observe" />
+    <property role="34LRSv" value="observe" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE1SmX" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ddomfE36x2">
+    <property role="EcuMT" value="8308403969324771394" />
+    <property role="TrG5h" value="TransformX" />
+    <property role="34LRSv" value="transform_x" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE36x3" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ddomfE36x5">
+    <property role="EcuMT" value="8308403969324771397" />
+    <property role="TrG5h" value="TransformY" />
+    <property role="34LRSv" value="transform_y" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE36x6" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ddomfE4o8j">
+    <property role="EcuMT" value="8308403969325105683" />
+    <property role="TrG5h" value="TransformW" />
+    <property role="34LRSv" value="transform_w" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE4o8k" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ddomfE4o8m">
+    <property role="EcuMT" value="8308403969325105686" />
+    <property role="TrG5h" value="TransformZ" />
+    <property role="34LRSv" value="transform_z" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="7ddomfE4o8n" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
 </model>
 

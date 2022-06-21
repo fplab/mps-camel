@@ -434,9 +434,7 @@
       <node concept="l2Vlx" id="3vh6UvnW2Zl" role="2iSdaV" />
       <node concept="3F1sOY" id="3vh6UvnW2Zp" role="3EZMnx">
         <ref role="1NtTu8" to="kkzo:3vh6UvnVyRw" resolve="function" />
-        <node concept="11LMrY" id="3VwSXPW8Isf" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <node concept="11LMrY" id="3VwSXPW8Isf" role="3F10Kt" />
       </node>
       <node concept="3EZMnI" id="14TMHtHjNCT" role="3EZMnx">
         <node concept="l2Vlx" id="14TMHtHjNCU" role="2iSdaV" />
