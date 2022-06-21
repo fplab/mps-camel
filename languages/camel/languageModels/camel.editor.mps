@@ -1769,7 +1769,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="lrWAqggegL" role="3EZMnx">
-        <property role="2czwfO" value="," />
+        <property role="2czwfO" value=";" />
         <ref role="1NtTu8" to="kkzo:lrWAqggegy" resolve="elems" />
         <node concept="l2Vlx" id="lrWAqggegN" role="2czzBx" />
       </node>
