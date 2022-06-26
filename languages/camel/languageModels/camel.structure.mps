@@ -613,5 +613,14 @@
     <property role="EcuMT" value="3807999282415518674" />
     <property role="TrG5h" value="OuterPrefix" />
   </node>
+  <node concept="1TIwiD" id="3joIMJPLZ7i">
+    <property role="EcuMT" value="3807999282423263698" />
+    <property role="TrG5h" value="Sum" />
+    <property role="34LRSv" value="sum" />
+    <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
+    <node concept="PrWs8" id="3joIMJPLZ7j" role="PzmwI">
+      <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
+    </node>
+  </node>
 </model>
 
