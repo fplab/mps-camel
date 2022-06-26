@@ -2928,7 +2928,7 @@
           <node concept="3clFbS" id="3joIMJPxXO$" role="2VODD2">
             <node concept="3clFbF" id="3joIMJPxXO_" role="3cqZAp">
               <node concept="Xl_RD" id="3joIMJPxXOA" role="3clFbG">
-                <property role="Xl_RC" value="let " />
+                <property role="Xl_RC" value="let" />
               </node>
             </node>
           </node>
