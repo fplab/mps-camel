@@ -339,9 +339,7 @@
     <node concept="3EZMnI" id="3vh6UvnVyQX" role="2wV5jI">
       <node concept="3EZMnI" id="3UJcMy4sggz" role="3EZMnx">
         <ref role="1ERwB7" node="3UJcMy4sy9r" resolve="Abstraction_Variable_actions" />
-        <node concept="VPM3Z" id="3UJcMy4sgg$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <node concept="VPM3Z" id="3UJcMy4sgg$" role="3F10Kt" />
         <node concept="3F0ifn" id="3UJcMy4sgg_" role="3EZMnx">
           <property role="3F0ifm" value="fun" />
           <node concept="VechU" id="2IlP_KgJlfx" role="3F10Kt">
