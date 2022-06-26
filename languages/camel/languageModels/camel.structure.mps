@@ -576,7 +576,7 @@
   <node concept="1TIwiD" id="7ddomfE36x2">
     <property role="EcuMT" value="8308403969324771394" />
     <property role="TrG5h" value="TransformX" />
-    <property role="34LRSv" value="transform_x" />
+    <property role="34LRSv" value="map_rotate" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     <node concept="PrWs8" id="7ddomfE36x3" role="PzmwI">
       <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
@@ -585,7 +585,7 @@
   <node concept="1TIwiD" id="7ddomfE36x5">
     <property role="EcuMT" value="8308403969324771397" />
     <property role="TrG5h" value="TransformY" />
-    <property role="34LRSv" value="transform_y" />
+    <property role="34LRSv" value="map_brighten" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     <node concept="PrWs8" id="7ddomfE36x6" role="PzmwI">
       <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
@@ -594,7 +594,7 @@
   <node concept="1TIwiD" id="7ddomfE4o8j">
     <property role="EcuMT" value="8308403969325105683" />
     <property role="TrG5h" value="TransformW" />
-    <property role="34LRSv" value="transform_w" />
+    <property role="34LRSv" value="map_dilate" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     <node concept="PrWs8" id="7ddomfE4o8k" role="PzmwI">
       <ref role="PrY4T" node="lrWAqgogAj" resolve="InScope" />
