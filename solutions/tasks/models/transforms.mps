@@ -7,27 +7,34 @@
   <imports />
   <registry>
     <language id="29d3c69d-1042-47f4-bf2e-adcdbf9b46dd" name="camel">
+      <concept id="1934341835352312155" name="camel.structure.BinaryOperation" flags="ng" index="28wy3X">
+        <child id="1934341835352312156" name="left" index="28wy3U" />
+        <child id="1934341835352312157" name="right" index="28wy3V" />
+      </concept>
       <concept id="5249919352014727944" name="camel.structure.VariableReference" flags="ng" index="2k$xVt">
         <reference id="5249919352014732020" name="variable" index="2k$wWx" />
       </concept>
-      <concept id="386168715391067167" name="camel.structure.ListLit" flags="ng" index="2l6LpT">
-        <child id="386168715391067170" name="elems" index="2l6Lp4" />
-      </concept>
+      <concept id="386168715392704327" name="camel.structure.ListFilter" flags="ng" index="2l0yOx" />
+      <concept id="386168715392704305" name="camel.structure.ListMap" flags="ng" index="2l0yPn" />
+      <concept id="386168715392369792" name="camel.structure.RevAp" flags="ng" index="2l3NrA" />
+      <concept id="386168715394410429" name="camel.structure.Area" flags="ng" index="2la1nr" />
+      <concept id="386168715393772137" name="camel.structure.Pi" flags="ng" index="2lctwf" />
       <concept id="386168715394082720" name="camel.structure.Shapes" flags="ng" index="2ldhn6" />
-      <concept id="8308403969324771394" name="camel.structure.TransformX" flags="ng" index="2pgg$x" />
-      <concept id="8308403969324771397" name="camel.structure.TransformY" flags="ng" index="2pgg$A" />
-      <concept id="8308403969324451257" name="camel.structure.Msg" flags="ng" index="2piIjq" />
-      <concept id="8308403969324451260" name="camel.structure.Observe" flags="ng" index="2piIjv" />
-      <concept id="8308403969325105683" name="camel.structure.TransformW" flags="ng" index="2pnedK" />
-      <concept id="4939219901991602079" name="camel.structure.LetExpression" flags="ng" index="2Dd6nb">
-        <child id="4939219901991602080" name="value" index="2Dd6nO" />
-        <child id="4939219901991602081" name="expression" index="2Dd6nP" />
-        <child id="8360767178776358704" name="variable" index="3oGGp3" />
-      </concept>
-      <concept id="4939219901992083820" name="camel.structure.LetRef" flags="ng" index="2Dj8cS" />
-      <concept id="8360767178776325736" name="camel.structure.LetVariable" flags="ng" index="3oG$sr" />
+      <concept id="386168715393173904" name="camel.structure.Rotate" flags="ng" index="2leJJQ" />
+      <concept id="386168715393628945" name="camel.structure.Translate" flags="ng" index="2lf0_R" />
+      <concept id="3367964133608977165" name="camel.structure.Dilate" flags="ng" index="AIpE4" />
+      <concept id="6645816968628162286" name="camel.structure.DivideOperation" flags="ng" index="PoI6W" />
       <concept id="4022026349915669385" name="camel.structure.Program" flags="ng" index="3wbhwI">
         <child id="4022026349915669386" name="expression" index="3wbhwH" />
+      </concept>
+      <concept id="4022026349915821199" name="camel.structure.AbstractionVarRef" flags="ng" index="3wbOWC" />
+      <concept id="4022026349914673025" name="camel.structure.AbstractionVariable" flags="ng" index="3wftgA" />
+      <concept id="4022026349914673024" name="camel.structure.LambdaAbstraction" flags="ng" index="3wftgB">
+        <child id="4022026349914762681" name="variable" index="3wfNou" />
+        <child id="4022026349914762693" name="body" index="3wfNpy" />
+      </concept>
+      <concept id="4022026349914762709" name="camel.structure.NumericConstant" flags="ng" index="3wfNpM">
+        <property id="4022026349914762710" name="value" index="3wfNpL" />
       </concept>
       <concept id="4022026349914762717" name="camel.structure.LambdaApplication" flags="ng" index="3wfNpU">
         <child id="4022026349914762721" name="argument" index="3wfNp6" />
@@ -41,37 +48,60 @@
     </language>
   </registry>
   <node concept="3wbhwI" id="lrWAqglchY">
-    <node concept="2Dd6nb" id="3joIMJPLSFv" role="3wbhwH">
-      <node concept="2Dd6nb" id="3joIMJPLSGz" role="2Dd6nP">
-        <node concept="3wfNpU" id="3joIMJPLSGJ" role="2Dd6nO">
-          <node concept="2ldhn6" id="3joIMJPLSGQ" role="3wfNp6" />
-          <node concept="2pgg$A" id="3joIMJPLSGF" role="3wfNp7" />
-        </node>
-        <node concept="2l6LpT" id="3joIMJPLSGT" role="2Dd6nP">
-          <node concept="2Dj8cS" id="3joIMJPLSGZ" role="2l6Lp4">
-            <ref role="2k$wWx" node="3joIMJPLSFy" resolve="ss1" />
+    <node concept="2l3NrA" id="3joIMJPLYjg" role="3wbhwH">
+      <node concept="2l3NrA" id="3joIMJPLYjh" role="28wy3U">
+        <node concept="2l3NrA" id="3joIMJPLYji" role="28wy3U">
+          <node concept="2l3NrA" id="3joIMJPLYjj" role="28wy3U">
+            <node concept="2ldhn6" id="3joIMJPLYg7" role="28wy3U" />
+            <node concept="3wfNpU" id="3joIMJPLYgV" role="28wy3V">
+              <node concept="3wfNpU" id="3joIMJPLYh6" role="3wfNp6">
+                <node concept="PoI6W" id="3joIMJPLYhh" role="3wfNp6">
+                  <node concept="3wfNpM" id="3joIMJPLYho" role="28wy3V">
+                    <property role="3wfNpL" value="4" />
+                  </node>
+                  <node concept="2lctwf" id="3joIMJPLYhd" role="28wy3U" />
+                </node>
+                <node concept="2leJJQ" id="3joIMJPLYh2" role="3wfNp7" />
+              </node>
+              <node concept="2l0yPn" id="3joIMJPLYgS" role="3wfNp7" />
+            </node>
           </node>
-          <node concept="2Dj8cS" id="3joIMJPLSH5" role="2l6Lp4">
-            <ref role="2k$wWx" node="3joIMJPLSGA" resolve="ss2" />
+          <node concept="3wfNpU" id="3joIMJPLYhK" role="28wy3V">
+            <node concept="3wfNpU" id="3joIMJPLYhV" role="3wfNp6">
+              <node concept="3wfNpM" id="3joIMJPLYi2" role="3wfNp6">
+                <property role="3wfNpL" value="6" />
+              </node>
+              <node concept="3wfNpM" id="3joIMJPLYi7" role="3wfNp6">
+                <property role="3wfNpL" value="7" />
+              </node>
+              <node concept="2lf0_R" id="3joIMJPLYhR" role="3wfNp7" />
+            </node>
+            <node concept="2l0yPn" id="3joIMJPLYhH" role="3wfNp7" />
           </node>
         </node>
-        <node concept="3oG$sr" id="3joIMJPLSGA" role="3oGGp3">
-          <property role="TrG5h" value="ss2" />
+        <node concept="3wfNpU" id="3joIMJPLYiD" role="28wy3V">
+          <node concept="3wftgB" id="3joIMJPLYiK" role="3wfNp6">
+            <node concept="3wftgA" id="3joIMJPLYiM" role="3wfNou">
+              <property role="TrG5h" value="shape" />
+            </node>
+            <node concept="3wfNpU" id="3joIMJPLYiX" role="3wfNpy">
+              <node concept="3wbOWC" id="3joIMJPLYj4" role="3wfNp6">
+                <ref role="2k$wWx" node="3joIMJPLYiM" resolve="shape" />
+              </node>
+              <node concept="2la1nr" id="3joIMJPLYiT" role="3wfNp7" />
+            </node>
+          </node>
+          <node concept="2l0yOx" id="3joIMJPLYi_" role="3wfNp7" />
         </node>
       </node>
-      <node concept="3oG$sr" id="3joIMJPLSFy" role="3oGGp3">
-        <property role="TrG5h" value="ss1" />
-      </node>
-      <node concept="3wfNpU" id="3joIMJPLSFV" role="2Dd6nO">
-        <node concept="2piIjq" id="3joIMJPLSG2" role="3wfNp6" />
-        <node concept="3wfNpU" id="3joIMJPLSGd" role="3wfNp6">
-          <node concept="3wfNpU" id="3joIMJPLSGp" role="3wfNp6">
-            <node concept="2ldhn6" id="3joIMJPLSGw" role="3wfNp6" />
-            <node concept="2pnedK" id="3joIMJPLSGl" role="3wfNp7" />
+      <node concept="3wfNpU" id="3joIMJPLYjL" role="28wy3V">
+        <node concept="2l0yPn" id="3joIMJPLYjI" role="3wfNp7" />
+        <node concept="3wfNpU" id="3joIMJPLYk6" role="3wfNp6">
+          <node concept="3wfNpM" id="3joIMJPLYkd" role="3wfNp6">
+            <property role="3wfNpL" value="5" />
           </node>
-          <node concept="2pgg$x" id="3joIMJPLSG8" role="3wfNp7" />
+          <node concept="AIpE4" id="3joIMJPLYk3" role="3wfNp7" />
         </node>
-        <node concept="2piIjv" id="3joIMJPLSFR" role="3wfNp7" />
       </node>
     </node>
   </node>
