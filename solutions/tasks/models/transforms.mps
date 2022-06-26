@@ -17,6 +17,7 @@
       <concept id="386168715392704327" name="camel.structure.ListFilter" flags="ng" index="2l0yOx" />
       <concept id="386168715392704305" name="camel.structure.ListMap" flags="ng" index="2l0yPn" />
       <concept id="386168715392369792" name="camel.structure.RevAp" flags="ng" index="2l3NrA" />
+      <concept id="386168715395026064" name="camel.structure.LessThan" flags="ng" index="2l9FVQ" />
       <concept id="386168715394410429" name="camel.structure.Area" flags="ng" index="2la1nr" />
       <concept id="386168715393772137" name="camel.structure.Pi" flags="ng" index="2lctwf" />
       <concept id="386168715394082720" name="camel.structure.Shapes" flags="ng" index="2ldhn6" />
@@ -84,11 +85,16 @@
             <node concept="3wftgA" id="3joIMJPLYiM" role="3wfNou">
               <property role="TrG5h" value="shape" />
             </node>
-            <node concept="3wfNpU" id="3joIMJPLYiX" role="3wfNpy">
-              <node concept="3wbOWC" id="3joIMJPLYj4" role="3wfNp6">
-                <ref role="2k$wWx" node="3joIMJPLYiM" resolve="shape" />
+            <node concept="2l9FVQ" id="3joIMJPNp$Q" role="3wfNpy">
+              <node concept="3wfNpM" id="3joIMJPNp_1" role="28wy3V">
+                <property role="3wfNpL" value="50" />
               </node>
-              <node concept="2la1nr" id="3joIMJPLYiT" role="3wfNp7" />
+              <node concept="3wfNpU" id="3joIMJPLYiX" role="28wy3U">
+                <node concept="3wbOWC" id="3joIMJPLYj4" role="3wfNp6">
+                  <ref role="2k$wWx" node="3joIMJPLYiM" resolve="shape" />
+                </node>
+                <node concept="2la1nr" id="3joIMJPLYiT" role="3wfNp7" />
+              </node>
             </node>
           </node>
           <node concept="2l0yOx" id="3joIMJPLYi_" role="3wfNp7" />
