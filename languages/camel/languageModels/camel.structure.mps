@@ -8,6 +8,7 @@
   <imports>
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -87,7 +88,7 @@
     <property role="EcuMT" value="4022026349914673025" />
     <ref role="1TJDcQ" node="4zrttnsimGi" resolve="Variable" />
     <node concept="PrWs8" id="7M_MU5__gfd" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="3vh6UvnVyR8">
@@ -329,7 +330,7 @@
     <property role="EcuMT" value="8360767178776325736" />
     <ref role="1TJDcQ" node="4zrttnsimGi" resolve="Variable" />
     <node concept="PrWs8" id="7M_MU5__gfe" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
   <node concept="PlHQZ" id="4zrttnsimDf">
@@ -354,7 +355,7 @@
     <property role="EcuMT" value="5249919352014727954" />
     <ref role="1TJDcQ" node="3vh6UvnV9zD" resolve="LambdaExpression" />
     <node concept="PrWs8" id="4zrttnsimGj" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="1xcOpEbT8r1">
