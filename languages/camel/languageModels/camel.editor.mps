@@ -2173,6 +2173,7 @@
         </node>
         <node concept="3F0ifn" id="lrWAqglcrV" role="3EZMnx">
           <property role="3F0ifm" value="|&gt;" />
+          <ref role="1ERwB7" node="lrWAqfZ1uu" resolve="DeleteOp" />
         </node>
         <node concept="1kIj98" id="lrWAqglcs8" role="3EZMnx">
           <node concept="3F1sOY" id="lrWAqglcsi" role="1kIj9b">
