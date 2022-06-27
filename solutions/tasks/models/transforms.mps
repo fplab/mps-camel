@@ -68,12 +68,9 @@
             </node>
           </node>
           <node concept="3wfNpU" id="3joIMJPLYhK" role="28wy3V">
-            <node concept="3wfNpU" id="3joIMJPLYhV" role="3wfNp6">
-              <node concept="3wfNpM" id="3joIMJPLYi2" role="3wfNp6">
+            <node concept="3wfNpU" id="3joIMJPPs0l" role="3wfNp6">
+              <node concept="3wfNpM" id="3joIMJPPs0s" role="3wfNp6">
                 <property role="3wfNpL" value="6" />
-              </node>
-              <node concept="3wfNpM" id="3joIMJPLYi7" role="3wfNp6">
-                <property role="3wfNpL" value="7" />
               </node>
               <node concept="2lf0_R" id="3joIMJPLYhR" role="3wfNp7" />
             </node>

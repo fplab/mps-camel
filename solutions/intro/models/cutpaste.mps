@@ -47,16 +47,14 @@
     </language>
   </registry>
   <node concept="3wbhwI" id="3joIMJPGvNV">
-    <node concept="2wox_h" id="3joIMJPLYkj" role="3wbhwH">
-      <node concept="2l9FVQ" id="3joIMJPLYkt" role="2wox_j">
-        <node concept="3wfNpM" id="3joIMJPLYkw" role="28wy3V">
-          <property role="3wfNpL" value="1" />
+    <node concept="2wox_h" id="3joIMJPMG9p" role="3wbhwH">
+      <node concept="2Dd6nb" id="3joIMJPPs5j" role="2wox_t">
+        <node concept="3oG$sr" id="3joIMJPPs5m" role="3oGGp3">
+          <property role="TrG5h" value="foo" />
         </node>
-        <node concept="3wfNpM" id="3joIMJPLYkr" role="28wy3U">
-          <property role="3wfNpL" value="0" />
+        <node concept="3wfNpM" id="3joIMJPLYkM" role="2Dd6nP">
+          <property role="3wfNpL" value="3" />
         </node>
-      </node>
-      <node concept="2Dd6nb" id="3joIMJPLYkx" role="2wox_t">
         <node concept="3wftgB" id="3joIMJPLYk_" role="2Dd6nO">
           <node concept="3wftgA" id="3joIMJPLYkB" role="3wfNou">
             <property role="TrG5h" value="bar" />
@@ -70,14 +68,16 @@
             </node>
           </node>
         </node>
-        <node concept="3wfNpM" id="3joIMJPLYkM" role="2Dd6nP">
-          <property role="3wfNpL" value="3" />
+      </node>
+      <node concept="2l9FVQ" id="3joIMJPMG9W" role="2wox_j">
+        <node concept="3wfNpM" id="3joIMJPMGa3" role="28wy3V">
+          <property role="3wfNpL" value="1" />
         </node>
-        <node concept="3oG$sr" id="3joIMJPLYk$" role="3oGGp3">
-          <property role="TrG5h" value="foo" />
+        <node concept="3wfNpM" id="3joIMJPMG9F" role="28wy3U">
+          <property role="3wfNpL" value="0" />
         </node>
       </node>
-      <node concept="3wfNpM" id="3joIMJPLYkN" role="2wox_o">
+      <node concept="3wfNpM" id="3joIMJPMGa5" role="2wox_o">
         <property role="3wfNpL" value="4" />
       </node>
     </node>

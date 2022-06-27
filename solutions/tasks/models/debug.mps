@@ -7,6 +7,10 @@
   <imports />
   <registry>
     <language id="29d3c69d-1042-47f4-bf2e-adcdbf9b46dd" name="camel">
+      <concept id="1934341835352312155" name="camel.structure.BinaryOperation" flags="ng" index="28wy3X">
+        <child id="1934341835352312156" name="left" index="28wy3U" />
+        <child id="1934341835352312157" name="right" index="28wy3V" />
+      </concept>
       <concept id="5249919352014727944" name="camel.structure.VariableReference" flags="ng" index="2k$xVt">
         <reference id="5249919352014732020" name="variable" index="2k$wWx" />
       </concept>
@@ -19,6 +23,7 @@
       <concept id="8308403969324451257" name="camel.structure.Msg" flags="ng" index="2piIjq" />
       <concept id="8308403969324451260" name="camel.structure.Observe" flags="ng" index="2piIjv" />
       <concept id="8308403969325105683" name="camel.structure.TransformW" flags="ng" index="2pnedK" />
+      <concept id="3367964133609985320" name="camel.structure.PairOperation" flags="ng" index="AEjMx" />
       <concept id="4939219901991602079" name="camel.structure.LetExpression" flags="ng" index="2Dd6nb">
         <child id="4939219901991602080" name="value" index="2Dd6nO" />
         <child id="4939219901991602081" name="expression" index="2Dd6nP" />
@@ -42,14 +47,16 @@
   </registry>
   <node concept="3wbhwI" id="7ddomfE36wJ">
     <node concept="2Dd6nb" id="3joIMJPLYex" role="3wbhwH">
-      <node concept="3wfNpU" id="3joIMJPLYeK" role="2Dd6nO">
-        <node concept="2piIjq" id="3joIMJPLYeR" role="3wfNp6" />
-        <node concept="3wfNpU" id="3joIMJPLYf2" role="3wfNp6">
-          <node concept="3wfNpU" id="3joIMJPLYfe" role="3wfNp6">
-            <node concept="2ldhn6" id="3joIMJPLYfl" role="3wfNp6" />
-            <node concept="2pnedK" id="3joIMJPLYfa" role="3wfNp7" />
+      <node concept="3wfNpU" id="3joIMJPPs3v" role="2Dd6nO">
+        <node concept="AEjMx" id="3joIMJPPs3E" role="3wfNp6">
+          <node concept="3wfNpU" id="3joIMJPPs3P" role="28wy3V">
+            <node concept="3wfNpU" id="3joIMJPPs40" role="3wfNp6">
+              <node concept="2ldhn6" id="3joIMJPPs47" role="3wfNp6" />
+              <node concept="2pnedK" id="3joIMJPPs3W" role="3wfNp7" />
+            </node>
+            <node concept="2pgg$x" id="3joIMJPPs3L" role="3wfNp7" />
           </node>
-          <node concept="2pgg$x" id="3joIMJPLYeX" role="3wfNp7" />
+          <node concept="2piIjq" id="3joIMJPPs3A" role="28wy3U" />
         </node>
         <node concept="2piIjv" id="3joIMJPLYeG" role="3wfNp7" />
       </node>
