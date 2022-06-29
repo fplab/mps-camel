@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:27466099-ab98-45cc-959d-846b45f470b6(linesegment)">
+<model ref="r:27466099-ab98-45cc-959d-846b45f470b6(linesegment_m)">
   <persistence version="9" />
   <languages>
     <use id="29d3c69d-1042-47f4-bf2e-adcdbf9b46dd" name="camel" version="0" />
