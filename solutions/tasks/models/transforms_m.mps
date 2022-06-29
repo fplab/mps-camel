@@ -23,6 +23,7 @@
       <concept id="386168715394082720" name="camel.structure.Shapes" flags="ng" index="2ldhn6" />
       <concept id="386168715393173904" name="camel.structure.Rotate" flags="ng" index="2leJJQ" />
       <concept id="386168715393628945" name="camel.structure.Translate" flags="ng" index="2lf0_R" />
+      <concept id="3367964133609985320" name="camel.structure.PairOperation" flags="ng" index="AEjMx" />
       <concept id="3367964133608977165" name="camel.structure.Dilate" flags="ng" index="AIpE4" />
       <concept id="6645816968628162286" name="camel.structure.DivideOperation" flags="ng" index="PoI6W" />
       <concept id="4022026349915669385" name="camel.structure.Program" flags="ng" index="3wbhwI">
@@ -69,8 +70,13 @@
           </node>
           <node concept="3wfNpU" id="3joIMJPLYhK" role="28wy3V">
             <node concept="3wfNpU" id="3joIMJPPs0l" role="3wfNp6">
-              <node concept="3wfNpM" id="3joIMJPPs0s" role="3wfNp6">
-                <property role="3wfNpL" value="6" />
+              <node concept="AEjMx" id="6cDcrvg4EMF" role="3wfNp6">
+                <node concept="3wfNpM" id="6cDcrvg4EMM" role="28wy3V">
+                  <property role="3wfNpL" value="7" />
+                </node>
+                <node concept="3wfNpM" id="3joIMJPPs0s" role="28wy3U">
+                  <property role="3wfNpL" value="6" />
+                </node>
               </node>
               <node concept="2lf0_R" id="3joIMJPLYhR" role="3wfNp7" />
             </node>
